@@ -2206,6 +2206,8 @@ input, select, textarea {
 
 			.image.main img {
 				border-radius: 0;
+        object-fit: cover; /* Ensures the image fills the container without stretching */
+        object-position: center 30%
 			}
 
 /* List */
